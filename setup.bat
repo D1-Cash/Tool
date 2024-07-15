@@ -1,7 +1,7 @@
 @echo off
 
-REM Install Python packages listed in requirements.txt
-pip install -r requirements.txt
+REM Install Python packages listed in requirements
+pip install -r requirements
 
 REM Check if installation was successful
 if %errorlevel% neq 0 (
